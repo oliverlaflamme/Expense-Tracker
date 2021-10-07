@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+    <meta chartset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expenses.css">
+</head><!-- end of head-->
+
+<body>
+    <header>Expense Tracker</header>
+    <div class="container">
+        <div class="input-form" id="inputForm">
+            <h2> Add expense down below</h2>
+
+            <form action="">
+                <lable for="type">Type Of Payment</lable>
+                <input type="type" id="type">
+
+                <label for="date">Date</label>
+                <input type="date" id="date">
+
+                <label for="amount">Amount</label>
+                <input type="text" id="amount" placeholder="eg.$19.99">
+
+                <label for="vendor">Location</label>
+                <input type="text" id="location" placeholder="eg.BestBuy">
+
+                <label for="comment">Description</label>
+                <input type="text" id="description" placeholder="What did you buy?">
+
+                <label for="trackbutton"></label>
+                <button type="button" id="addbutton">Add</button>
+            </form>
+            <!--end of form input-->
+        </div><!-- end of div input form-->
+    </div><!-- end of container-->
+
+    <div class="tableinput">
+        <h1>Track Expenses</h1>
+
+        <table>
+            <thead>
+            <tbody id="tableBody"></tbody>
+
+            <tr>
+                <th>Type</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th id="delete">Delete</th>
+            </tr>
+            </thead>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="expenses.js"></script>
+</body>
+
+</html>

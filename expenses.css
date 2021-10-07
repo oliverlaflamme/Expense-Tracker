@@ -1,0 +1,48 @@
+
+body {
+    text-align: center;
+    background-color: #25274d;
+
+}
+
+
+.tableinput {
+    text-align: center;
+    color: #29648a;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+header {
+    font-size: 5em;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #2e9cca
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #29648a;
+}
+
+form {
+    font-size: 1.6em;
+    margin:20px 20px 20px 20px;
+    color:  #2e9cca;
+}
+
+input {
+    font-size: 1em;
+    margin:20px 20px 20px 20px;
+    background-color: #aaabb8;
+    
+}
+
+th {
+    padding: 1px 30px 1px 30px;
+}
+h1 {
+    color: #2e9cca;
+}
